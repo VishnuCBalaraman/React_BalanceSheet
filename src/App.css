@@ -1,0 +1,98 @@
+
+
+.balancesheet {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  background-color: #f9f9f9; 
+}
+
+h1 {
+  text-align: center; 
+  color: #333;
+}
+
+h2 {
+  text-align: center; 
+  color: #8caf4c; 
+}
+
+.transaction-form {
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px; 
+  margin-top: 20px; 
+}
+
+label {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.dropdown, .amount-input, .proceed-button {
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  font-size: 16px; 
+}
+
+.dropdown:focus, .amount-input:focus {
+  border-color: #8caf4c; 
+  outline: none;
+}
+
+.proceed-button {
+  background-color: #8caf4c; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+}
+
+.proceed-button:hover {
+  background-color: #8caf4c; 
+}
+
+.history-section {
+  margin-top: 30px; 
+  border-top: 1px solid #ccc; 
+  padding-top: 20px; 
+}
+
+
+.hs-content {
+  margin-top: 20px;
+  overflow-x: auto; 
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  text-align: left; 
+}
+
+th {
+  background-color: #8caf4c;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 600px) {
+  th, td {
+      font-size: 12px; 
+  }
+}
+
+
